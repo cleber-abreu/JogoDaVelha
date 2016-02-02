@@ -1,1 +1,3 @@
-#![icone](https://raw.githubusercontent.com/cleber-abreu/JogoDaVelha/master/app/src/main/res/mipmap-hdpi/ic_launcher.png) JogoDaVelha
+#![icone](https://raw.githubusercontent.com/cleber-abreu/JogoDaVelha/master/app/src/main/res/mipmap-mdpi/ic_launcher.png) JogoDaVelha
+
+Jogo da velha desenvolvido casualmente em busca de apreendizagem.
