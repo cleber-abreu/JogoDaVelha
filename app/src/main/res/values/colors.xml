@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#505050</color>
+    <color name="backgroundBoard">#505050</color>
+    <color name="button">#363636</color>
+    <color name="buttonClicked">#181818</color>
+    <color name="player1">#0050F0</color>
+    <color name="player2">#FF1010</color>
+    <color name="player1Score">#101033</color>
+    <color name="player2Score">#611a1a</color>
+    <color name="winner">#009f00</color>
+</resources>

@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Jogo da Velha</string>
+    <string name="title_activity_about">Sobre</string>
+    <string name="singleplayer">1 Jogador</string>
+    <string name="multiplayer">2 Jogadores</string>
+    <string name="option">Opções</string>
+    <string name="about">Sobre</string>
+    <string name="exit">Sair</string>
+    <string name="new_game">Nova Partida</string>
+    <string name="back">Voltar</string>
+    <string name="player1">Jogador 1</string>
+    <string name="player2">Jogador 2</string>
+    <string name="player1_point">0</string>
+    <string name="player2_point">0</string>
+    <string name="names">Nomes</string>
+    <string name="versus">x</string>
+    <string name="x">X</string>
+    <string name="o">O</string>
+    <string name="level">Nível</string>
+    <string name="dificult">Dificuldade</string>
+    <string name="easy">Fácil</string>
+    <string name="normal">Médio</string>
+    <string name="hard">Difícil</string>
+    <string name="players">Jogadores</string>
+    <string name="color">Cores</string>
+    <string name="restore">Restaurar Padrão</string>
+    <string name="pref_restore_key">restore</string>
+
+    <!-- Strings related to Settings -->
+
+    <string name="pref_players">Jogadores</string>
+    <string name="pref_level">Médio</string>
+    <string name="pref_play1Name">Jogador 1</string>
+    <string name="pref_play2Name">Jogador 2</string>
+
+    <string-array name="pref_level_list">
+        <item>Fácil</item>
+        <item>Médio</item>
+        <item>Difícil</item>
+    </string-array>
+
+    <string-array name="pref_level_list_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

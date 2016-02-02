@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/names">
+
+        <EditTextPreference
+            android:key="pref_play1Name"
+            android:singleLine="true"
+            android:defaultValue="@string/player1"
+            android:summary="@string/player1"
+            android:title="@string/player1" />
+
+        <EditTextPreference
+            android:key="pref_play2Name"
+            android:singleLine="true"
+            android:defaultValue="@string/player2"
+            android:summary="@string/player2"
+            android:title="@string/player2" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/dificult">
+        <ListPreference
+            android:defaultValue="2"
+            android:entries="@array/pref_level_list"
+            android:entryValues="@array/pref_level_list_values"
+            android:key="pref_level"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:summary="@string/pref_level"
+            android:title="@string/level" />
+    </PreferenceCategory>
+</PreferenceScreen>
