@@ -135,7 +135,15 @@ public class ActivityGame extends AppCompatActivity {
 
             txtPlayerPoint.setText(Integer.toString(
                     GameController.placar[GameController.vezDoJogador - 1]));
-            createAlertOption("Jogador " + GameController.vezDoJogador + " venceu!", "Nova partida?");
+
+            if (GameController.vezDoJogador == 1) {
+                createAlertOption(txtPlayer1.getText()
+                        + " venceu!", "Nova partida?");
+            }
+            else {
+                createAlertOption(txtPlayer2.getText()
+                        + " venceu!", "Nova partida?");
+            }
 
         } else if (GameController.tabuleiroCheio()) {
             createAlertOption("Deu velha!", "Nova partida?");
