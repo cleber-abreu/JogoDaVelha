@@ -3,6 +3,8 @@ package br.com.abreu.cleber.jogodavelha;
 import android.annotation.SuppressLint;
 import android.content.DialogInterface;
 import android.content.SharedPreferences;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.v7.app.ActionBar;
@@ -109,6 +111,7 @@ public class ActivityGame extends AppCompatActivity {
                 })
                 .setCancelable(false)
                 .create();
+        alertOption.getWindow().setBackgroundDrawable(new ColorDrawable(Color.argb(180, 200, 200, 200)));
         alertOption.show();
     }
 
