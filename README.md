@@ -2,6 +2,10 @@
 
 Jogo da velha desenvolvido casualmente em busca de aprendizagem.
 
-#Caputura de Telas
+APK
+https://github.com/cleber-abreu/JogoDaVelha/raw/master/app/app-release.apk
+
+
+Caputura de Telas
 
 ![Imagem de captura de tela](https://raw.githubusercontent.com/cleber-abreu/JogoDaVelha/master/ScreenShots/SC-2016-02-03-110625.png) ![Imagem de captura de tela](https://raw.githubusercontent.com/cleber-abreu/JogoDaVelha/master/ScreenShots/SC-2016-02-03-110745.png)
